@@ -10,7 +10,6 @@ E-commerce businesses generate large amounts of sales data from orders, customer
 This project solves that problem by creating a complete sales analytics pipeline that converts raw CSV data into a structured star schema and business insights.
 
 ## Objectives
-## Objectives
 
 - Ingest raw e-commerce sales data using Azure Data Factory.
 - Store raw data in Azure Data Lake Storage.
