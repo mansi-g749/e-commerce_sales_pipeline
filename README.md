@@ -43,11 +43,11 @@ Dataset summary:
 | Total Rows | 5000 |
 | Total Columns | 14 |
 | Date Range | 2023-10-04 to 2025-10-03 |
+| Missing Values | 0 |
+| Duplicate Order IDs Removed | 0 |
+| Total Sales | 533,666,024.35 |
+| Total Profit | 79,708,734.91 |
 
-| Missing Values |  0  |
-| Duplicate Order IDs Removed | 0  |
-| Total Sales |	 533,666,024.35  |
-| Total Profit | 	79,708,734.91  |
 Main columns:
 
 ``` text Order ID, Order Date, Customer Name, Region, City, Category,
