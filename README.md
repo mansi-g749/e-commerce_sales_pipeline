@@ -10,22 +10,22 @@ E-commerce businesses generate large amounts of sales data from orders, customer
 This project solves that problem by creating a complete sales analytics pipeline that converts raw CSV data into a structured star schema and business insights.
 
 ## Objectives
-**Ingest raw e-commerce sales data using Azure Data Factory.**
-**Store raw data in Azure Data Lake Storage.**
-**Load sales data into Azure SQL staging tables.**
-**Clean and transform the dataset using SQL and Python.**
-**Build a star schema data model for analytics.**
-**Generate business insights using SQL queries.**
-**Plan a Power BI dashboard for sales, profit, category, region, and payment analysis.**
+-Ingest raw e-commerce sales data using Azure Data Factory.
+-Store raw data in Azure Data Lake Storage.
+-Load sales data into Azure SQL staging tables.
+-Clean and transform the dataset using SQL and Python.
+-Build a star schema data model for analytics.
+-Generate business insights using SQL queries.
+-Plan a Power BI dashboard for sales, profit, category, region, and payment analysis.
 
 ## Tech Stack
 
-**Azure Data Factory**
-**Azure Data Lake Storage**
-**Azure SQL Database / Synapse SQL**
-**SQL**
-**Power BI**
-**CSV Dataset**
+-Azure Data Factory
+-Azure Data Lake Storage
+-Azure SQL Database / Synapse SQL
+-SQL
+-Power BI
+-CSV Dataset
 
 ## Dataset Details
 Raw dataset:
@@ -42,10 +42,10 @@ Dataset summary:
 | Total Columns | 14 |
 | Date Range | 2023-10-04 to 2025-10-03 |
 
-| Missing Values | 	0 |
-| Duplicate Order IDs Removed |	0 |
-| Total Sales |	533,666,024.35 |
-| Total Profit |	79,708,734.91 |
+| Missing Values |  0  |
+| Duplicate Order IDs Removed | 0  |
+| Total Sales |	 533,666,024.35  |
+| Total Profit | 	79,708,734.91  |
 Main columns:
 
 ``` text Order ID, Order Date, Customer Name, Region, City, Category,
