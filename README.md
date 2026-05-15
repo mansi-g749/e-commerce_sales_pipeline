@@ -10,22 +10,25 @@ E-commerce businesses generate large amounts of sales data from orders, customer
 This project solves that problem by creating a complete sales analytics pipeline that converts raw CSV data into a structured star schema and business insights.
 
 ## Objectives
--Ingest raw e-commerce sales data using Azure Data Factory.
--Store raw data in Azure Data Lake Storage.
--Load sales data into Azure SQL staging tables.
--Clean and transform the dataset using SQL and Python.
--Build a star schema data model for analytics.
--Generate business insights using SQL queries.
--Plan a Power BI dashboard for sales, profit, category, region, and payment analysis.
+## Objectives
+
+- Ingest raw e-commerce sales data using Azure Data Factory.
+- Store raw data in Azure Data Lake Storage.
+- Load sales data into Azure SQL staging tables.
+- Clean and transform the dataset using SQL and Python.
+- Build a star schema data model for analytics.
+- Generate business insights using SQL queries.
+- Plan a Power BI dashboard for sales, profit, category, region, and payment analysis.
+
 
 ## Tech Stack
 
--Azure Data Factory
--Azure Data Lake Storage
--Azure SQL Database / Synapse SQL
--SQL
--Power BI
--CSV Dataset
+- Azure Data Factory
+- Azure Data Lake Storage
+- Azure SQL Database / Synapse SQL
+- SQL
+- Power BI
+- CSV Dataset
 
 ## Dataset Details
 Raw dataset:
@@ -146,10 +149,10 @@ python scripts\build_star_schema.py
 ```
 This script generates:
 
-**Cleaned sales dataset**
-**Fact table CSV**
-**Dimension table CSV files**
-**Data quality summary**
+- Cleaned sales dataset
+- Fact table CSV
+- Dimension table CSV files
+- Data quality summary
 Generated files are saved in:
 
 ```text
@@ -170,40 +173,40 @@ sql/05_business_insights_queries.sql
 ## Power BI Dashboard Pages
 Recommended dashboard pages:
 
-1. **Sales Overview**
-2. **Product and Category Analysis**
-3. **Regional Performance**
-4. **Profit and Discount Analysis**
-5. **Payment Mode Analysis**
+1. Sales Overview
+2. Product and Category Analysis
+3. Regional Performance
+4. Profit and Discount Analysis
+5. Payment Mode Analysis
 Recommended KPIs:
 
-**Total Sales**
-**Total Profit**
-**Total Orders**
-**Total Quantity Sold**
-**Profit Margin**
-**Monthly Sales Trend**
-**Sales by Category**
-**Sales by Region and City**
-**Top Products**
-**Payment Mode Distribution**
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Quantity Sold
+- Profit Margin
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region and City
+- Top Products
+- Payment Mode Distribution
 
 ## Key Business Insights
 
-**Total sales are 533,666,024.35.**
-**Total profit is 79,708,734.91.**
-**Home Decor, Furniture, Clothing, Books, and Kitchen are among the top sales categories.**
-**North region has the highest total sales.**
-**Net Banking has the highest sales among payment modes.**
-**The dataset supports sales, profit, category, city, region, date, and payment behavior analysis.**
+- Total sales are 533,666,024.35.
+- Total profit is 79,708,734.91.
+- Home Decor, Furniture, Clothing, Books, and Kitchen are among the top sales categories.
+- North region has the highest total sales.
+- Net Banking has the highest sales among payment modes.
+- The dataset supports sales, profit, category, city, region, date, and payment behavior analysis.
 ## Future Scope
 
-**Add real-time streaming data ingestion.**
-**Connect Power BI directly to Azure SQL for live reporting.**
-**Add automated Power BI refresh.**
-**Build sales forecasting using machine learning.**
-**Add customer segmentation and product recommendation analysis.**
-**Include inventory and supply chain analytics.**
+- Add real-time streaming data ingestion.
+- Connect Power BI directly to Azure SQL for live reporting.
+- Add automated Power BI refresh.
+- Build sales forecasting using machine learning.
+- Add customer segmentation and product recommendation analysis.
+- Include inventory and supply chain analytics.
 
 ## Conclusion
 
